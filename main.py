@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-  return 'Hello, World!'
+  return 'Hello World!, I Python application is running on Azure Web App'
 
 if __name__ == '__main__':
   app.run()
